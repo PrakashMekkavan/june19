@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="another one testing(failed)">
+    <parameter name="brow" value="edge"/>
+    <classes>
+      <class name="link.parallelex">
+        <methods>
+          <include name="testcase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- link.parallelex -->
+    </classes>
+  </test> <!-- another one testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
